@@ -1,0 +1,16 @@
+.backgroundFilter {
+  background-image: url('../../assets/Participate.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  
+  //? Agregamos un filtro para oscurecer la imagen de fondo
+  background-color: rgba(87, 10, 87, 0.7);
+  background-blend-mode: multiply;
+}
+

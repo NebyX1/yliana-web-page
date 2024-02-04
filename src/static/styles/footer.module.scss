@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+.footer {
+  width: 100%; 
+}
+
+.footerRow {
+  align-items: center; 
+}
+
+.footerIconEffect {
+  font-size: 30px !important;
+  transition: all 0.3s ease-in-out;
+  color: #570A57;
+}
+
+.footerIconEffect:hover {
+  transform: scale(1.05);
+  color: #1C82AD !important;
+}
+
+.nebyFont {
+  font-family: 'Satisfy', cursive;
+  font-size: 20px !important;
+  font-weight: 200;
+  text-decoration: none !important;
+}
+
+.logoEffect{
+    transition: all 0.3s ease-in-out;
+}
+
+.logoEffect:hover {
+    transform: rotate(-7deg);
+}

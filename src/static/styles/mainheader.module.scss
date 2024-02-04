@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+
+.mainHeader {
+  position: relative;
+  width: 100%;
+
+  .headerContent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.colorRed {
+  color: #ad0909;
+  transition: all 0.3s ease-in-out;
+}
+
+.colorBlue {
+  color: #6a3ee8;
+  transition: all 0.3s ease-in-out;
+}
+
+.colorWhite {
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+.colorRed:hover {
+  color: #ffffff;
+}
+
+.colorBlue:hover {
+  color: #ffffff;
+}
+
+.colorWhite:hover {
+  color: #ad0909;
+}
+
+.typo {
+  font-family: "Caveat", cursive;
+  text-shadow: 2px 2px 4px #000000;
+
+  // Ajustes para dispositivos grandes
+  h2 {
+    font-size: 5rem;
+  }
+  h4 {
+    font-size: 2.5rem;
+  }
+
+  // Ajustes para dispositivos medianos
+  @media (max-width: 992px) {
+    h2 {
+      font-size: 4.5rem; // Tamaño más pequeño para h2
+    }
+    h4 {
+      font-size: 3rem; // Tamaño más pequeño para h4
+    }
+  }
+
+  // Ajustes para dispositivos pequeños
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 3rem; // Tamaño aún más pequeño para h2
+    }
+    h4 {
+      font-size: 2rem; // Tamaño aún más pequeño para h4
+    }
+  }
+
+  // Ajustes para dispositivos muy pequeños
+  @media (max-width: 620px) {
+    h2 {
+      font-size: 1.7rem; // Tamaño aún más pequeño para h2
+    }
+    h4 {
+      font-size: 1.2rem; // Tamaño aún más pequeño para h4
+    }
+  }
+}
