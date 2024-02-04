@@ -11,7 +11,7 @@ import {
 import App from "../App.jsx";
 import Home from "../views/Home.jsx";
 import About from "../views/About.jsx";
-import NotFound404 from "../Views/NotFound404.jsx";
+import NotFound404 from "../views/NotFound404.jsx";
 import Contact from "../views/Contact.jsx";
 import Ideas from "../views/Ideas.jsx";
 
